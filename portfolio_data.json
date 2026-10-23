@@ -1,0 +1,100 @@
+[
+    {
+        "symbol": "THYAO",
+        "name": "Türk Hava Yolları",
+        "category": "bist",
+        "sentiment": "Olumlu",
+        "summary": "Güçlü yolcu trafiği ve operasyonel verimlilik, hisse üzerindeki olumlu görünümü destekliyor."
+    },
+    {
+        "symbol": "TUPRS",
+        "name": "Tüpraş",
+        "category": "bist",
+        "sentiment": "Nötr",
+        "summary": "Küresel akaryakıt marjlarındaki yatay seyir nedeniyle kısa vadeli konsolidasyon süreci sürüyor."
+    },
+    {
+        "symbol": "ISCTR",
+        "name": "İş Bankası",
+        "category": "bist",
+        "sentiment": "Olumlu",
+        "summary": "Güçlü bilanço yapıları ve bankacılık sektörüne gelen dönemsel alımlar ivme kazandırıyor."
+    },
+    {
+        "symbol": "ASELS",
+        "name": "Aselsan",
+        "category": "bist",
+        "sentiment": "Yüksek Olumlu",
+        "summary": "Yeni alınan savunma sanayi sözleşmeleri ve yüksek ar-ge yatırımları ile güçlü yükseliş trendinde."
+    },
+    {
+        "symbol": "TSLA",
+        "name": "Tesla Inc.",
+        "category": "us",
+        "sentiment": "Dikkat",
+        "summary": "Rekabet baskısı ve otonom sürüş regülasyonlarındaki gelişmeler yakından takip ediliyor."
+    },
+    {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp.",
+        "category": "us",
+        "sentiment": "Yüksek Olumlu",
+        "summary": "Yapay zeka çip taleplerindeki küresel patlama şirketin büyüme ivmesini zirvede tutuyor."
+    },
+    {
+        "symbol": "ASTS",
+        "name": "AST SpaceMobile",
+        "category": "us",
+        "sentiment": "Olumlu",
+        "summary": "Uydu testlerindeki başarılı aşamalar spekülatif alım iştahını canlı tutuyor."
+    },
+    {
+        "symbol": "UUUU",
+        "name": "Energy Fuels Inc.",
+        "category": "us",
+        "sentiment": "Nötr",
+        "summary": "Nükleer enerji ve uranyum talebine yönelik küresel haber akışı bekleniyor."
+    },
+    {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "category": "crypto",
+        "sentiment": "Olumlu",
+        "summary": "Kurumsal ETF girişlerinin desteğiyle piyasada yukarı yönlü dengeli seyir korunuyor."
+    },
+    {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "category": "crypto",
+        "sentiment": "Nötr",
+        "summary": "Ağ üzerindeki işlem hacimleri yatay seyrediyor, kritik direnç seviyeleri test ediliyor."
+    },
+    {
+        "symbol": "SOL",
+        "name": "Solana",
+        "category": "crypto",
+        "sentiment": "Yüksek Olumlu",
+        "summary": "Ekosistemdeki yüksek geliştirici aktivitesi ve meme coin hacimleri fiyatı destekliyor."
+    },
+    {
+        "symbol": "XRP",
+        "name": "Ripple",
+        "category": "crypto",
+        "sentiment": "Nötr",
+        "summary": "Mahkeme süreçleri sonrasında piyasa genel trendine ayak uydurarak yatay hareket ediyor."
+    },
+    {
+        "symbol": "TAO",
+        "name": "Bittensor",
+        "category": "crypto",
+        "sentiment": "Olumlu",
+        "summary": "Yapay zeka odaklı kripto projeleri arasında lider konumunu koruyarak ilgi görüyor."
+    },
+    {
+        "symbol": "NEAR",
+        "name": "Near Protocol",
+        "category": "crypto",
+        "sentiment": "Olumlu",
+        "summary": "Zincir üstü kullanıcı sayısındaki artış ekosisteme olan güveni tazeliyor."
+    }
+]
