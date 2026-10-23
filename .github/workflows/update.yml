@@ -1,0 +1,25 @@
+name: Günlük AI Portföy Güncelleyici
+
+on:
+  schedule:
+    # Her gün Türkiye saati ile sabah 09:00'da (UTC 06:00) otomatik çalışır
+    - cron: '0 6 * * *'
+  workflow_dispatch: # İstersen manuel olarak da tetikleyebilirsin
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu Kopyala
+        uses: actions/checkout@v4
+
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Botu Çalıştır
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python update_portfolio.py
