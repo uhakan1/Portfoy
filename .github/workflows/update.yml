@@ -12,13 +12,16 @@ jobs:
       - name: Depoyu Kopyala
         uses: actions/checkout@v4
 
-      - name: Python ve Kütüphane Kurulumu
-        run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install google-generativeai
+      - name: Python Kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
 
-      - name: Botu Çalıştır
+      - name: Botu Çalıştır ve Paketleri Yükle
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python3 update_portfolio.py
+          python -m pip install --upgrade pip
+          pip install google-generativeai
+          python update_portfolio.py
